@@ -1,6 +1,24 @@
 * {
   box-sizing: border-box;
 }
+body, html {
+  margin: 0;
+}
+header div {
+  background-color: red;
+  height: 506px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
 h1 {
   text-align: center;
   font-size: 100px;
